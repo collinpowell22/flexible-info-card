@@ -11,16 +11,65 @@ html {
 body {
 
   margin: 0;
+  line-height: 1.5rem;
+}
+
+h2 {
+
+  text-align: center;
 }
 
 ul {
 
   display: flex;
-  margin: 1.5rem;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  color: #444;
-  color: #ccc;
   flex-direction: column;
-  justify-content: flex-start;
+
+}
+
+li {
+
+  display: flex;
+}
+
+h3 {
+
+  vertical-align: baseline;
+  line-height: .5rem ;
+}
+
+h4 {
+
+  vertical-align: text-top;
+  line-height: .5rem ;
+}
+
+img {
+
+  width: 5rem;
+}
+
+a{
+
+  color: #fff;
+  background-color: #444;
+  padding: .6rem;
+  text-align: center;
+  display: inline-block;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 125%;
+}
+
+a:active {
+  text-decoration: underline;
+  font-size: 75%;
 }
